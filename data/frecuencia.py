@@ -7,7 +7,7 @@ def frecuencia_palabras_en_archivo(archivo_entrada, archivo_salida):
         for linea in f:
             # Dejar únicamente letras y espacios
             linea = linea.lower()
-            letras = ""
+            letras = "" #Crea la variable letras como una cadena de string vacía
             for caracter in linea:
                 if caracter.isalpha() or caracter == " ":
                     letras += caracter
